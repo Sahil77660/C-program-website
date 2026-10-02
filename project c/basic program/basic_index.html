@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>C Programming</title>
+  </head>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: whitesmoke;
+    }
+
+    * {
+      margin: 0px;
+      padding: 0px;
+      box-sizing: border-box;
+    }
+
+    header {
+      background-color: #4b6cb7;
+      padding: 25px;
+    }
+
+    .c {
+      color: white;
+      font-size: 30px;
+      font-weight: bold;
+    }
+
+    .main {
+      display: flex;
+    }
+
+    .cprograms {
+      color: #ffd166;
+      font-size: 20px;
+      padding: 15px;
+    }
+
+    aside {
+      background-color: #182848;
+      min-height: 100vh;
+      width: 15vw;
+      padding: 20px 0px;
+      flex-shrink: 0;
+    }
+
+    .link {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .link a {
+      text-decoration: none;
+      color: #d1d5db;
+      padding: 19px 25px;
+    }
+
+    .link a:hover {
+      border-radius: 16px;
+      background-color: gray;
+    }
+
+    .link a.active {
+      background: #4b6cb7;
+      color: white;
+      border-radius: 15px;
+    }
+
+    .content {
+      flex: 1;
+    }
+
+    .basicinput {
+      margin: 56px 100px;
+      color: #182848;
+      font-size: 35px;
+      font-weight: bold;
+      line-height: 1.5;
+      text-align: center;
+    }
+
+    .question1 {
+      background-color: white;
+      margin: 45px;
+      padding: 35px;
+      border-radius: 15px;
+      border: 1px solid rgb(230, 217, 217);
+      /* box-shadow: 2px 2px 2px; */
+    }
+
+    .question1:hover {
+      border: 2px solid #ffd166;
+      box-shadow: 0px 0px 20px 2px #ffd166;
+    }
+
+    .view2 {
+      display: inline-block;
+      margin-top: 15px;
+      text-decoration: none;
+      color: white;
+      background-color: #4b6cb7;
+      padding: 10px 25px;
+      border-radius: 12px;
+    }
+    .view2:hover {
+      background-color: #182848;
+    }
+  </style>
+
+  <body>
+    <header>
+      <div class="c">C <span style="color: #ffd166">Programming</span></div>
+    </header>
+
+    <div class="main">
+      <aside>
+        <div class="cprograms">C Programs</div>
+
+        <div class="link">
+          <a href="" class="active">Basic Programs</a>
+          <a href="">Conditional Statements</a>
+          <a href="">Loops</a>
+          <a href="">Pattern</a>
+          <a href="">Array</a>
+          <a href="">String</a>
+          <a href="">Function</a>
+          <a href="">Pointer</a>
+          <a href="">Structure</a>
+        </div>
+      </aside>
+      <div class="content">
+        <div class="basicinput">
+          BASIC INPUT AND OUTPUT <br /><span style="margin: 150px"
+            >Program</span
+          >
+        </div>
+        <div class="question1">
+          <span
+            style="
+              color: #182848;
+              font-weight: bold;
+              font-size: 22px;
+              margin-bottom: 14px;
+              display: inline-block;
+            "
+          >
+            Question 01 </span
+          ><br />
+          <span style="color: gray"
+            >Write a program to print the message: Today I made my first C
+            Program.</span
+          >
+          <br />
+          <a href="program1.html" class="view2">View Program →</a>
+        </div>
+        <div class="question1">
+          <span
+            style="
+              color: #182848;
+              font-weight: bold;
+              font-size: 22px;
+              margin-bottom: 14px;
+              display: inline-block;
+            "
+          >
+            Question 02 </span
+          ><br />
+          <span style="color: gray"
+            >Write a program to read a character from the keyboard and display it on the screen.</span
+          >
+          <br />
+          <a href="program2.html" class="view2">View Program →</a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

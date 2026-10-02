@@ -1,0 +1,232 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: whitesmoke;
+    }
+
+    * {
+      margin: 0px;
+      padding: 0px;
+    }
+
+    header {
+      background-color: #4b6cb7;
+      padding: 25px;
+    }
+
+    .c {
+      color: white;
+      font-size: 30px;
+      font-weight: bold;
+    }
+
+    .main {
+      display: flex;
+    }
+
+    .cprograms {
+      color: #ffd166;
+      font-size: 20px;
+      padding: 15px;
+    }
+
+    aside {
+      display: flex;
+      display: inline-block;
+      background-color: #182848;
+      min-height: 100vh;
+      width: 15vw;
+      padding: 20px 0px;
+    }
+
+    .link {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .link a {
+      text-decoration: none;
+      color: #d1d5db;
+      padding: 19px 25px;
+    }
+
+    .link a:hover {
+      /* border: 2px solid; */
+      border-radius: 16px;
+      background-color: gray;
+    }
+
+    .link a.active {
+      background: #4b6cb7;
+      color: white;
+      border-radius: 16px;
+    }
+
+    .langauge {
+      color: #182848;
+      font-weight: bold;
+      font-size: 29px;
+    }
+
+    .basicinput {
+      padding: 34px;
+    }
+
+    .questionsyntax {
+      color: gray;
+      margin-top: 7px;
+    }
+
+    .program1box {
+      border: 2px solid white;
+      background-color: white;
+      width: 60vw;
+      margin: 35px;
+      padding: 26px;
+    }
+
+    .program1 {
+      color: #4b6cb7;
+      font-weight: bold;
+      font-size: 17px;
+    }
+
+    .question1 {
+      background-color: #f4f7fb;
+      border-left: 5px solid #4b6cb7;
+      border-radius: 10px;
+      padding: 20px;
+      font-size: 16px;
+    }
+
+    .csyntax {
+      font-weight: bold;
+      margin-top: 15px;
+      font-size: 20px;
+    }
+
+    .codding1 {
+      background-color: #182848;
+      color: white;
+      padding: 18px;
+      border-radius: 18px;
+    }
+
+    .output {
+      display: inline-block;
+      font-weight: bold;
+      margin-top: 20px;
+    }
+
+    .outputreal {
+      border: 1px solid green;
+      background-color: rgb(226, 239, 226);
+      padding: 12px;
+      border-radius: 14px;
+      width: 20vw;
+      min-height: 12vh;
+      margin-top: 10px;
+    }
+
+    .previous {
+      display: inline-block;
+
+      margin-top: 29px;
+    }
+
+    .previous a {
+      text-decoration: none;
+      color: white;
+      background-color: #4b6cb7;
+      padding: 10px 25px;
+      border-radius: 12px;
+    }
+
+    .previous a:hover {
+      background-color: #182848;
+    }
+
+    .next_program {
+      display: inline-block;
+    }
+
+    .next_program a {
+      text-decoration: none;
+      color: white;
+      background-color: #4b6cb7;
+      padding: 10px 25px;
+      border-radius: 12px;
+      margin-left: 600px;
+    }
+
+    .next_program a:hover {
+      background-color: #182848;
+    }
+    .codding1 pre {
+    margin: 0;
+    font-family: Consolas, monospace;
+    font-size: 16px;
+    line-height: 1.6;
+    padding: 16px;
+}
+  </style>
+
+  <body>
+    <header>
+      <div class="c">C <span style="color: #ffd166">Porgamming</span></div>
+    </header>
+    <div class="main">
+      <aside>
+        <div class="cprograms">C Programs</div>
+        <div class="link">
+          <a href="basic_index.html" class="active">Basic Programs</a>
+          <a href="">Conditional Statements</a>
+          <a href="">Loops</a>
+          <a href="">Pattern</a>
+          <a href="">Array</a>
+          <a href="">String</a>
+          <a href="">function</a>
+          <a href="">Pointer</a>
+          <a href="">Structures</a>
+        </div>
+      </aside>
+      <div class="basicinput">
+        <div class="langauge">C Language Programs</div>
+        <div class="questionsyntax">
+          Questions, syntax, input and output of C programs
+        </div>
+        <div class="program1box">
+          <div class="program1">Program 01</div>
+          <div class="question1">
+            <span style="color: #182848; font-weight: bold"> Question1: </span
+            ><br />
+            Write a program to print the message: Today I made my first C
+            Program.
+          </div>
+          <div class="csyntax">C program/Syntax</div>
+          <div class="codding1">
+            <pre><code>#include &lt;stdio.h&gt;
+
+void main()
+{
+    printf("Today I made my first C Program.");
+}</code></pre>
+          </div>
+          <span class="output">Output:-</span>
+          <div class="outputreal">
+            <pre style="font-size: 16px;">Today I made my first C Program</pre>
+          </div>
+          <div class="previous"><a href=""> ← Previous</a></div>
+          <div class="next_program"><a href="program2.html"> Next Program →</a></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
